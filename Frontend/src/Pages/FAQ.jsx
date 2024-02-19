@@ -1,7 +1,13 @@
 import React from 'react'
+import { Helmet } from 'react-helmet'
 
 export default function FAQ() {
   return (
-    <div>FAQ</div>
+    <>
+    <Helmet>
+      <meta charSet='utf-8' />
+      <title>FAQ</title>
+    </Helmet>
+    FAQ</>
   )
 }
